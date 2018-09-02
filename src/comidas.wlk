@@ -6,7 +6,6 @@ object manzana {
 
 	method teEncontro(alguien) {
 		alguien.levantar(self)
-		game.say(alguien, "Comi una Manzana")
 		game.removeVisual(self)
 	}
 
@@ -20,7 +19,6 @@ object alpiste {
 
 	method teEncontro(alguien) {
 		alguien.levantar(self)
-		game.say(alguien, "Comi alpiste")
 		game.removeVisual(self)
 	}
 

@@ -16,6 +16,7 @@ object roque {
 	method darComida(golondrina) {
 		if (comidaActual != null) {
 			golondrina.come(comidaActual)
+			game.addVisualIn(comidaActual, game.at(1.randomUpTo(9),1.randomUpTo(9)))
 			comidaActual = null
 		}
 	}
