@@ -21,6 +21,7 @@ program PepitaGame {
 //	TECLADO
 	keyboard.v().onPressDo{ pepita.volaHacia(villaGesell) }
 	keyboard.b().onPressDo{ pepita.volaHacia(buenosAires) }
+	// TODO esto no está pedido, con que la coma ya está, igual no anda :P
 	keyboard.m().onPressDo{ pepita.volaHacia(manzana) }
 //	START
 	game.start()

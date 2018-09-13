@@ -10,6 +10,7 @@ object roque {
 			game.addVisualIn(comidaActual, posicion.up(1))
 		}
 		comidaActual = comida
+		// TODO puede ser que ya la está sacando en comida cuando llama a este método??
 		game.removeVisual(comida)
 	}
 

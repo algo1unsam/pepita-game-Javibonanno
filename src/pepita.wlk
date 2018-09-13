@@ -31,6 +31,7 @@ object pepita {
 	method energiaParaVolar(distancia) = 15 + 5 * distancia
 
 	method move(nuevaPosicion) {
+		// TODO está harcodeado el 20, acá tiene que ir la energía que le tomaría ir hasta ese lugar
 		if (energia >= 20) {
 			energia -= self.energiaParaVolar(posicion.distance(nuevaPosicion))
 			self.posicion(nuevaPosicion)
